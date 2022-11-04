@@ -13,6 +13,12 @@ st.title("Indian Premier League (Cricket)")
 
 st.markdown("""<hr style="height:5px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
+st.subheader("Matches Dataset")
+
+st.dataframe(mathces)
+
+st.markdown("""<hr style="height:5px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+
 st.subheader("Toss Decision across Season")
 
 fig, ax = plt.subplots(figsize=(10,6))
